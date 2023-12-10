@@ -1,0 +1,55 @@
+.both{
+    display:flex;
+    gap:81px;
+    max-width:1000px;
+    margin: 0 auto;
+    margin-top:40px;
+}
+
+
+.topBtn{
+    display: flex;
+    gap:32px;
+}
+
+
+    
+.btnCls{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.btnCls form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.formControl{
+   display:flex;
+   flex-direction:column;
+   position:relative; 
+   
+}
+
+.formControl input{
+    padding: 0 8px;
+    height:40px;
+ }
+
+ .formControl label{
+    position:absolute;
+    top:-12px;
+    left:10px;
+    padding: 0 10px;
+    background-color:white;
+ }
+
+ .formControl textArea{
+    padding: 8px;
+ }
+
+ .contactImage{
+
+ }
